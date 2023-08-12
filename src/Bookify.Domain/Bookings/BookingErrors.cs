@@ -2,7 +2,7 @@ using Bookify.Domain.Abstractions;
 
 namespace Bookify.Domain.Bookings;
 
-public static class BookingErrors
+public static class    BookingErrors
 {
     public static Error NotFound = new(
         "Booking.NotFound",
