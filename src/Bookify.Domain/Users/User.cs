@@ -5,6 +5,13 @@ namespace Bookify.Domain.Users;
 
 public sealed class User : Entity
 {
+    /// <summary>
+    /// This constructor only exists to support Entity Framework Migrations
+    /// </summary>
+    private User()
+    {
+    }
+
     private User(Guid id, FirstName firstName, LastName lastName, Email email)
         : base(id)
     {

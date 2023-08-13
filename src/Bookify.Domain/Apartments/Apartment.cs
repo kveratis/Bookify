@@ -5,6 +5,13 @@ namespace Bookify.Domain.Apartments;
 
 public sealed class Apartment : Entity
 {
+    /// <summary>
+    /// This constructor only exists to support Entity Framework Migrations
+    /// </summary>
+    private Apartment()
+    {
+    }
+
     public Apartment(
         Guid id,
         Name name,

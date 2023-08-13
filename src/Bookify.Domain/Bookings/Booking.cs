@@ -7,6 +7,13 @@ namespace Bookify.Domain.Bookings;
 
 public sealed class Booking : Entity
 {
+    /// <summary>
+    /// This constructor only exists to support Entity Framework Migrations
+    /// </summary>
+    private Booking()
+    {
+    }
+
     private Booking(
         Guid id,
         Guid apartmentId,

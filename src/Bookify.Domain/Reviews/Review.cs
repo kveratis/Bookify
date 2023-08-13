@@ -6,6 +6,13 @@ namespace Bookify.Domain.Reviews;
 
 public sealed class Review : Entity
 {
+    /// <summary>
+    /// This constructor only exists to support Entity Framework Migrations
+    /// </summary>
+    private Review()
+    {
+    }
+
     private Review(
         Guid id,
         Guid apartmentId,

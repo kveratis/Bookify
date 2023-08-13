@@ -455,3 +455,4 @@ Dockerfile.bak
 ## Batch files
 redis-commander.bat
 
+.containers/*
